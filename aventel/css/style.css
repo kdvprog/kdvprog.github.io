@@ -1,0 +1,53 @@
+* {
+  text-align: center;
+}
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #3273af;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  border: none;
+  width: 100%;
+}
+section {
+  padding: 10rem 0;
+}
+main {
+  padding: 2rem 0;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 5rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header {
+  height: 5rem;
+}
+.header-btn {
+  padding: 1rem;
+  display: inline-block;
+}
+.logo img {
+  width: 100%;
+  height: 5rem;
+  padding-top: 0.3rem;
+  display: inline-block;
+}
+.phone-link {
+  color: #1a1620;
+  font-weight: 600;
+  font-size: 2rem;
+  height: 5rem;
+  line-height: 5rem;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+}
