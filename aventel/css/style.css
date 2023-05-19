@@ -7,11 +7,11 @@ html {
 .button {
   background-color: #3273af;
   color: #ffffff;
-  padding: 1rem 1rem;
-  border-radius: 6px;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
   text-transform: uppercase;
   border: none;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2px;
   display: inline-block;
   text-align: right;
@@ -24,6 +24,12 @@ section {
   background: #000000 url(../img/bg-slider.jpg) center center no-repeat;
   background-size: cover;
 }
+.main-content {
+  margin: 7rem 0rem;
+  background: #0005;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
 .main-title {
   display: inline-block;
   text-align: left;
@@ -33,31 +39,31 @@ section {
 .main-title p {
   display: inline-block;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  word-spacing: 6px;
+  word-spacing: 0.5rem;
   width: 100%;
-  line-height: 1.2;
+  line-height: 1.3;
   color: #ffffff;
 }
 .main-title h1 {
-  margin-top: 10rem;
-  font-size: 3.15rem;
+  margin-bottom: 3rem;
+  padding-top: 2.8rem;
+  font-size: 3rem;
+  letter-spacing: 0.06rem;
 }
 .main-title p {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5.4rem;
   font-size: 1.85rem;
+  letter-spacing: 0.01rem;
 }
 .main-desc {
   display: inline-block;
   text-align: justify;
   width: 100%;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
-  padding: 5rem 0;
 }
 .main-desc-p {
   text-align: justify;
@@ -65,7 +71,8 @@ section {
 }
 .main-desc-s {
   text-align: left;
-  margin: -2rem 2rem;
+  margin: -2rem 0 -2rem 2rem;
+  font-weight: 400;
 }
 .wrap {
   display: table;
@@ -79,8 +86,8 @@ section {
 }
 .header {
   height: 7rem;
-  background: #000000D9;
-  border-radius: 2rem;
+  background-color: #000c;
+  border-radius: 1rem;
   padding: 1rem;
 }
 .logo {
@@ -89,18 +96,19 @@ section {
 }
 .logo img {
   height: 5rem;
-  padding-top: 0.3rem;
   display: inline-block;
   text-align: left;
 }
-.phone-link {
-  color: #ffffff;
-  font-weight: 600;
+.pnone {
+  width: 100%;
+  font-weight: 500;
   font-size: 2rem;
   height: 5rem;
   line-height: 5rem;
-  width: 100%;
   display: inline-block;
   text-align: right;
   word-spacing: 0px;
+}
+.pnone a {
+  color: #ffffff;
 }
