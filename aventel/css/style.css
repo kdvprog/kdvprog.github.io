@@ -21,7 +21,8 @@ section {
 }
 .main {
   padding: 2rem 0;
-  background: #ffffff url(../img/bg-slider.jpg) center center no-repeat;
+  background: #000000 url(../img/bg-slider.jpg) center center no-repeat;
+  background-size: cover;
 }
 .main-title {
   display: inline-block;
@@ -49,6 +50,23 @@ section {
   margin-bottom: 10rem;
   font-size: 1.85rem;
 }
+.main-desc {
+  display: inline-block;
+  text-align: justify;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 5rem 0;
+}
+.main-desc-p {
+  text-align: justify;
+  margin: 2rem 0rem;
+}
+.main-desc-s {
+  text-align: left;
+  margin: -2rem 2rem;
+}
 .wrap {
   display: table;
   width: 100%;
@@ -61,15 +79,19 @@ section {
 }
 .header {
   height: 7rem;
-  background: #000;
+  background: #000000D9;
   border-radius: 2rem;
   padding: 1rem;
 }
-.logo img {
+.logo {
   width: 100%;
+  text-align: left;
+}
+.logo img {
   height: 5rem;
   padding-top: 0.3rem;
   display: inline-block;
+  text-align: left;
 }
 .phone-link {
   color: #ffffff;
