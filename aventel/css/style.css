@@ -5,8 +5,8 @@ html {
   font-size: 10px;
 }
 .button {
-  background-color: #3273af;
-  color: #ffffff;
+  background-color: #548cd6;
+  color: #e0ffff;
   padding: 0.3rem 1rem;
   border-radius: 0.5rem;
   text-transform: uppercase;
@@ -44,7 +44,7 @@ section {
   word-spacing: 0.5rem;
   width: 100%;
   line-height: 1.3;
-  color: #ffffff;
+  color: #e0ffff;
 }
 .main-title h1 {
   margin-bottom: 3rem;
@@ -63,7 +63,7 @@ section {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 500;
-  color: #fff;
+  color: #e0ffff;
 }
 .main-desc-p {
   text-align: justify;
@@ -90,25 +90,38 @@ section {
   border-radius: 1rem;
   padding: 1rem;
 }
-.logo {
-  width: 100%;
+.header-logo {
+  width: 200%;
   text-align: left;
 }
-.logo img {
-  height: 5rem;
+.header-logo img {
+  height: 4rem;
+  display: inline-block;
+  margin-top: -3.2rem;
+}
+.header-logo p {
   display: inline-block;
   text-align: left;
+  height: 5rem;
+  line-height: 2.5rem;
+  color: #548cd6;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0rem;
+  text-transform: uppercase;
 }
 .pnone {
-  width: 100%;
+  width: 200%;
+  margin-left: -100%;
   font-weight: 500;
   font-size: 2rem;
   height: 5rem;
   line-height: 5rem;
   display: inline-block;
   text-align: right;
-  word-spacing: 0px;
+  word-spacing: -2px;
+  letter-spacing: 0px;
 }
 .pnone a {
-  color: #ffffff;
+  color: #e0ffff;
 }

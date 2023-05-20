@@ -4,8 +4,8 @@
 }
 
 // Базовые цвета
-@btn-color: #3273AF;
-@btn-text-color: #ffffff;
+@btn-color: #548CD6;
+@btn-text-color: #e0ffff;
 @icons-color: #46b814;
 @text-color: #000;//#1a1620;
 @danger-color: red;
@@ -84,7 +84,7 @@ section {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 500;
-    color: #fff;
+    color: @btn-text-color;
 
     &-p {
       text-align: justify;
@@ -114,27 +114,41 @@ section {
   background-color: #000c;
   border-radius: 1rem;
   padding: 1rem;
+  &-logo {
+    width: 200%;
+    text-align: left;
+    img {
+      height: 4rem;
+      display: inline-block;
+      margin-top: -3.2rem;
+    }
+    p {
+      display: inline-block;
+      text-align: left;
+      height: @height;
+      line-height: 2.5rem;
+      color: @btn-color;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0rem;
+      text-transform: uppercase;
+    }
+  }
   &-btn {
   }
 }
-.logo {
-  width: 100%;
-  text-align: left;
-  img {
-    height: @height;
-    display: inline-block;
-    text-align: left;
-  }
-}
+
 .pnone {
-  width: 100%;
+  width: 200%;
+  margin-left: -100%;
   font-weight: 500;
   font-size: 2rem;
   height: @height;
   line-height: @height;
   display: inline-block;
   text-align: right;
-  word-spacing: 0px;
+  word-spacing: -2px;
+  letter-spacing: 0px;
   &-link {
 
   }
