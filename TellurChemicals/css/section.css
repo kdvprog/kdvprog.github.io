@@ -1,36 +1,11 @@
-body {
-  background-image: url(../images/img5.jpg);
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  color: white;
-}
-
-.carousel-inner {
-  width: 100%;
-  min-height: 85vh;
+.carousel-indicators>button {
+  margin-top: 3em;
 }
 
 .carousel-item {
   width: 100%;
-  min-height: 80vh;
-  margin-bottom: 1em;
+  height: 85vh;
 }
-
-/* .fon img {
-  position: fixed;
-  height: 100vh;
-  min-width: 100vw;
-  z-index: -1000;
-} */
-
-/* .fon2 {
-  position: fixed;
-  height: 100vh;
-  min-width: 100vw;
-  z-index: -900;
-  background-color: rgba(0, 0, 0, 0.4);
-} */
 
 .carousel-caption {
   text-align: left;

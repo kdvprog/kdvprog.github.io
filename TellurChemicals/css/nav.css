@@ -1,8 +1,12 @@
 body {
-  background-color: rgba(166,182,198,0);
+  background-image: url(../images/img5.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
 }
+
 .logo {
-  /* font-weight: bold; */
   display: inline-flex;
 }
 
@@ -18,25 +22,10 @@ body {
   height: 2.5em;
 }
 
-.navbar-brand {
-
-}
-
 .logo-text {
-  /* list-style: none; */
   margin-top: 0.23em;
   margin-left: 0.5em;
   margin-right: -1em;
-  /* font-weight: 400; */
-}
-
-#navbarNav {
-
-}
-
-.nav-link {
-  /* font-weight: 300; */
-  /* font-size: 1.5em; */
 }
 
 .active {
