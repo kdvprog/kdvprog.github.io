@@ -2,4 +2,4 @@
 Создание сайта
 
 
-# [Aventel](https://kdvprog.github.io/aventel/ "Aventel")
+# [TellurChemicals](https://kdvprog.github.io/TellurChemicals/ru/ "TellurChemicals")
