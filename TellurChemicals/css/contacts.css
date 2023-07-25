@@ -1,0 +1,23 @@
+body {
+  background-image: url(../images/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.section {
+  min-height: 85vh;
+}
+
+.col01 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.col02 {
+  padding-block: 1em;
+  margin-block: 1em;
+}
+.input-group-text {
+  font-size: xx-small;
+}

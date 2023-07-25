@@ -1,0 +1,35 @@
+.carousel-item {
+  width: 100%;
+  height: 85vh;
+}
+
+.fon img {
+  position: fixed;
+  height: 100vh;
+  min-width: 100vw;
+  z-index: -1000;
+}
+
+.fon2 {
+  position: fixed;
+  height: 100vh;
+  min-width: 100vw;
+  z-index: -900;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-caption {
+  text-align: left;
+  max-width: 33em;
+  color: white;
+  /* background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.01)); */
+  padding-inline: 1em;
+}
+
+.carousel-caption p {
+  text-align: right;
+}
+
+.carousel-caption h2 {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(166,182,198,0);
+}
+.logo {
+  /* font-weight: bold; */
+  display: inline-flex;
+}
+
+.nav-top {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), white, rgba(0,0,0,0.5));
+}
+
+.container-fluid {
+  z-index: 999;
+}
+
+.logo>img {
+  height: 2.5em;
+}
+
+.navbar-brand {
+
+}
+
+.logo-text {
+  /* list-style: none; */
+  margin-top: 0.23em;
+  margin-left: 0.5em;
+  /* font-weight: 400; */
+}
+
+#navbarNav {
+
+}
+
+.nav-link {
+  /* font-weight: 300; */
+  /* font-size: 1.5em; */
+}
+
+.active {
+  font-weight: 600;
+}
