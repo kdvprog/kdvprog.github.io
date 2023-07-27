@@ -13,7 +13,11 @@
 
 .carousel-caption p {
   text-align: right;
-  font-size: 12pt;
+  font-size: calc(2vh + 0.5vw);
+}
+
+.carousel-caption h1 {
+  font-size: calc(3vh + 0.8vw);
 }
 
 .carousel-caption h2 {

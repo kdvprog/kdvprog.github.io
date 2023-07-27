@@ -1,0 +1,37 @@
+body {
+  background-image: url(../images/img5.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+
+
+.logo {
+  display: inline-flex;
+}
+
+.nav-top {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), white, rgba(0,0,0,0.5));
+}
+
+.container-fluid {
+  z-index: 999;
+}
+
+.logo-text img {
+  height: 40px;
+}
+
+.logo-text a {
+  font-size: 20px;
+  margin-right: -1em;
+}
+.active {
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  margin-left: 2em;
+}
