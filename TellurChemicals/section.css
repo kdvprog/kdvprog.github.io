@@ -1,0 +1,21 @@
+.carousel-item {
+  width: 100%;
+  min-height: 85vh;
+}
+
+.carousel-caption {
+  text-align: left;
+  max-width: 33em;
+  color: white;
+  background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  padding-inline: 1em;
+}
+
+.carousel-caption p {
+  text-align: right;
+  font-size: 12pt;
+}
+
+.carousel-caption h2 {
+  text-align: center;
+}
