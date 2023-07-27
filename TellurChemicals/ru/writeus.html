@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/nav.css">
   <link rel="stylesheet" href="../css/contacts.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <title>Теллур Кемикалс</title>
 </head>
 
@@ -57,7 +58,7 @@
           <form action="../ru/mail.php" method="post">
             <div class="input-group mb-0">
               <input type="text" class="form-control" placeholder="Ваше имя" aria-label="Ваше имя"
-                aria-describedby="basic-addon1" name="user_name">
+                aria-describedby="basic-addon1" name="name">
               <span class="input-group-text" id="basic-addon1">Иванов Иван</span>
             </div>
             <div class="input-group mb-0">
@@ -72,7 +73,7 @@
             </div>
             <div class="input-group mb-2">
               <textarea class="form-control" placeholder="Текст обращения" aria-label="Текст обращения"
-                aria-describedby="basic-addon4" rows="7" name="user_text"></textarea>
+                aria-describedby="basic-addon4" rows="7" name="text"></textarea>
             </div>
             <div class="input-group mb-1">
               <button type="submit" class="btn btn-primary w-100">Отправить</button>
@@ -101,7 +102,29 @@
     </div>
   </section>
 
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <div class="row footer align-items-center">
+
+        <div class="elem col-lg-3 col-md-6 col-sm-12">
+
+          <span><a href="../ru/index.html"><img src="../icons/info.png" alt="">О нас</a></span>
+        </div>
+
+        <div class="elem col-lg-3 col-md-6 col-sm-12">
+          <span><a href="../ru/contacts.html"><img src="../icons/contacts.png" alt="">Контакты</a></span>
+        </div>
+
+        <div class="elem col-lg-3 col-md-6 col-sm-12">
+          <span class="footer-active"><a href="../ru/writeus.html"><img src="../icons/mail.png" alt="">Написать нам</a></span>
+        </div>
+
+        <div class="elem col-lg-3 col-md-6 col-sm-12">
+          <span><a href="#"><img src="../icons/english.png" alt="">ENGLISH</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

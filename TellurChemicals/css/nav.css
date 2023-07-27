@@ -31,3 +31,7 @@ body {
 .active {
   font-weight: 600;
 }
+
+.navbar-collapse {
+  margin-left: 2em;
+}
